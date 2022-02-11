@@ -1,20 +1,19 @@
 # RiskProp
-1.English Version
-2.中文版
-===============================================================================================================================================
+
 1.English Version
 
 (1) Dataset Name:
-	Second-order transaction network of phishing nodes
+	Ethereum transaction network (with partial labels)
 
 (2) Description  
-	Our work shares phishing account information from Etherscan. In addition, we share the RiskPro algorithm for detection in our work (RiskProp: Account Risk Rating on Ethereum via De-anonymousScore and Network Propagation).  
+	Our work shares phishing account information from Etherscan. In addition, we share the RiskProp algorithm for detection in our work (RiskProp: Account Risk Rating on Ethereum via De-anonymousScore and Network Propagation).  
 We crawled the phishing accounts in Ethereum from December 1, 2019 to December 31, 2019 and their first-order and second-order nodes from https://etherscan.io/accounts/label/phish-hack, and got a total of 243 phishing accounts. Due to the limitation of memory size, we collect 10 accounts with recent transactions from these first-order nodes, and collect all the first-order neighborhood of these selected accounts as the second-order nodes.The second-order transaction network of phishing nodes consists of  1.19 million accounts and 4.13 million transactions.
 
 (3) Update Log
 	We crawled the phishing accounts in Ethereum from December 1, 2019 to December 31, 2019 
 
 (4) Contents
+
 	a. all_hash_0_hop_803_labels.csv
 	Discription: this file contains the information of training and testing accounts, and it is used for result vertification.
 
@@ -65,18 +64,23 @@ We crawled the phishing accounts in Ethereum from December 1, 2019 to December 3
 		each row represents an account.
 
 (5) Citation
+
 	updating...
 	BibTex
 	IEEE
 	ACM
+	
 (6) Contact
+
 	updating...
 	Please contact  () for any questions about the dataset
+	
 ===============================================================================================================================================
+
 2.中文版
 
 (1) 名称：
-	以太坊钓鱼账户二阶交易网络
+	以太坊交易网络（带部分标签）
 
 (2) 简介：
 
@@ -141,11 +145,13 @@ We crawled the phishing accounts in Ethereum from December 1, 2019 to December 3
 		每一行代表一个账户信息
 
 (5) 引用格式：
+
 	待更新...
 	BibTex
 	IEEE
 	ACM
 
 (6) 联系人：
+
 	待更新...
 	若对数据集有任何问题请联系  (@mail2.sysu.edu.cn)。
